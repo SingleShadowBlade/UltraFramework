@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T06:33:03.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6YHNXOfBOlK48dEQPjtL" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T06:41:58.019Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RL_7J6eh1QneHQYq821-" version="21.3.2" type="github">
   <diagram name="第 1 页" id="ozhlEDh4OqDTrrgAJ7Wa">
-    <mxGraphModel dx="2389" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3607" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,6 +139,33 @@
         </mxCell>
         <mxCell id="N430Aj534q1zeIAL79OQ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N430Aj534q1zeIAL79OQ-47" target="N430Aj534q1zeIAL79OQ-39">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N430Aj534q1zeIAL79OQ-49" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1403.9999389648438" y="300" as="sourcePoint" />
+            <mxPoint x="1420" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N430Aj534q1zeIAL79OQ-50" value="每个ReplicationEntity 实例化一个PRIDataPool,创建时通过AddData注册需要同步的属性。属性变化时通过OnSyncReplicationData更新对应属性的值。&lt;br&gt;每个MatchGame实例化一个GRIDataPool，创建时通过AddData注册需要同步的属性。属性同步同上。" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="990" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="N430Aj534q1zeIAL79OQ-51" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="930" as="sourcePoint" />
+            <mxPoint x="1430" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N430Aj534q1zeIAL79OQ-52" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N430Aj534q1zeIAL79OQ-53" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="930" as="sourcePoint" />
+            <mxPoint x="-110" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N430Aj534q1zeIAL79OQ-54" value="Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="310" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
