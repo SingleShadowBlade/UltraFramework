@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T08:38:37.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uL_0FsxcE3KVKuQn_sCs" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T10:17:20.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KAdlm0Smt828D9ExNlOT" version="21.3.2" type="github">
   <diagram name="第 1 页" id="ozhlEDh4OqDTrrgAJ7Wa">
-    <mxGraphModel dx="3607" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3607" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -267,6 +267,9 @@
         </mxCell>
         <mxCell id="N430Aj534q1zeIAL79OQ-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.014;entryY=-0.212;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="N430Aj534q1zeIAL79OQ-100" target="N430Aj534q1zeIAL79OQ-85">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N430Aj534q1zeIAL79OQ-102" value="3p 影子追随算法同步位置朝向" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="1150" width="380" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
